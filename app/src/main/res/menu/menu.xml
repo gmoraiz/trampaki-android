@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:id="@+id/new_game"
         android:icon="@drawable/places_ic_search"
         android:title="@string/pesquisar"
-        android:showAsAction="ifRoom"/>
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/new_cad"
+        android:title="@string/cadastrar"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/new_excluir"
+        android:title="@string/excluir"
+        app:showAsAction="ifRoom"/>
+
 </menu>
