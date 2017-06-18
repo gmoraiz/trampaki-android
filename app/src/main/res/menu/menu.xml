@@ -9,9 +9,4 @@
     <item android:id="@+id/new_cad"
         android:title="@string/cadastrar"
         app:showAsAction="ifRoom"/>
-
-    <item android:id="@+id/new_excluir"
-        android:title="@string/excluir"
-        app:showAsAction="ifRoom"/>
-
 </menu>

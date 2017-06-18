@@ -1,5 +1,6 @@
 package br.com.sudo.trampaki.trampaki;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
@@ -45,12 +46,16 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        Intent it;
         switch (item.getItemId()) {
             case R.id.new_game:
                 //CHAMA CHAMA A API.
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
+                break;
+            case R.id.new_cad:
+                 it = new Intent(this, Cadastrar.class);
+                 startActivity(it);
+                 break;
         }
+        return super.onOptionsItemSelected(item);
     }
 }

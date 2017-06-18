@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Trampaki</string>
     <string name="pesquisar">Pesquisar</string>
+    <string name="cadastrar">Cadastrar</string>
     <string name="google_maps_key">AIzaSyAFmAbWa7FjqKmyj_Hnaiy-pv3HfHvrxrc</string>
 </resources>
