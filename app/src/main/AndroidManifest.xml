@@ -22,7 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Cadastrar"></activity>
+        <activity android:name=".Cadastrar" android:theme="@style/Theme.AppCompat.DayNight"></activity>
     </application>
 
 </manifest>

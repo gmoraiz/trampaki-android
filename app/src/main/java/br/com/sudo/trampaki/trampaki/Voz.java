@@ -6,7 +6,7 @@ import android.speech.RecognizerIntent;
 import java.util.Locale;
 
 /**
- * Created by tarci on 18/06/2017.
+ * Created by tarcisio on 18/06/2017.
  */
 
 public class Voz {
